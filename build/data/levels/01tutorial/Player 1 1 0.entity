@@ -1,0 +1,48 @@
+texture data/textures/player.png
+spawn_position [0.000000, 0.000000]
+render_position [-1.000000, -1.000000]
+render_size [-1.000000, -1.000000]
+po {
+    position [107.500000, 435.000000]
+    velocity [0.000000, -400.000000]
+    goal_velocity [0.000000, 0.000000]
+    velocity_ramp_speed 3000.000000
+    is_sensor 0
+    size [64.000000, 128.000000]
+    mass 1.000000
+    inv_mass 1.000000
+    restitution 0.000000
+    groups 1
+    mask 4294967295
+}
+test_float 0.000000
+Player {
+    is_lit 0
+    can_jump 1
+    weight 100.000000
+    min_weight 25.000000
+    max_weight 100.000000
+    weight_factor0 0.250000
+    weight_factor1 5.000000
+    jump_speed 400.000000
+    move_speed 200
+    fall_multiplier 2.500000
+    low_jump_multiplier 2.000000
+    sword_texture data/textures/sword.png
+    has_sword 0
+    flame_on_wick 0
+    shrink_speed 10.000000
+    fire_system {
+        texture data/textures/flame_particle.png
+        position [400.000000, 400.000000]
+        position_spread [20.000000, 0.000000]
+        velocity [0.000000, -25.000000]
+        velocity_spread [10.000000, 0.000000]
+        angular_velocity 0.000000
+        angular_velocity_spread 0.000000
+        lifetime 2.000000
+        lifetime_spread 1.000000
+        spawn_rate 1000.000000
+    }
+    dead 0
+}

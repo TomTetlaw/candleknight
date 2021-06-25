@@ -1,0 +1,20 @@
+texture data/textures/brazier_lit.png
+spawn_position [0.000000, 0.000000]
+render_position [-1.000000, -1.000000]
+render_size [-1.000000, -1.000000]
+po {
+    position [142.000000, 1078.000000]
+    velocity [0.000000, 0.000000]
+    goal_velocity [0.000000, 0.000000]
+    velocity_ramp_speed 0.000000
+    is_sensor 1
+    size [170.000000, 168.000000]
+    mass 0.000000
+    inv_mass 0.000000
+    restitution 0.000000
+    groups 1
+    mask 4294967295
+}
+test_float 0.000000
+Brazier {
+}

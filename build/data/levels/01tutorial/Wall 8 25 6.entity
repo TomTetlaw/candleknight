@@ -1,0 +1,20 @@
+texture data/textures/grass.jpg
+spawn_position [0.000000, 0.000000]
+render_position [-1.000000, -1.000000]
+render_size [-1.000000, -1.000000]
+po {
+    position [2047.500000, 623.250000]
+    velocity [0.000000, 0.000000]
+    goal_velocity [0.000000, 0.000000]
+    velocity_ramp_speed 0.000000
+    is_sensor 0
+    size [212.750000, 26.000000]
+    mass 0.000000
+    inv_mass 0.000000
+    restitution 0.000000
+    groups 1
+    mask 4294967295
+}
+test_float 0.000000
+Wall {
+}

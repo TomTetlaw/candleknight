@@ -1,0 +1,20 @@
+texture data/textures/crusher.png
+spawn_position [0.000000, 0.000000]
+render_position [-1.000000, -1.000000]
+render_size [-1.000000, -1.000000]
+po {
+    position [5110.192383, -324.729370]
+    velocity [0.000000, 0.000000]
+    goal_velocity [0.000000, 0.000000]
+    velocity_ramp_speed 0.000000
+    is_sensor 1
+    size [128.000000, 256.000000]
+    mass 0.000000
+    inv_mass 0.000000
+    restitution 0.000000
+    groups 1
+    mask 4294967295
+}
+test_float 0.000000
+Crusher {
+}
